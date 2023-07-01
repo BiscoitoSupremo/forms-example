@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <!-- desenvolvimento de uma pagina web para o estudo -->
+    <title>formulario 2</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- css linkado -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>formulário qualquer</h1>
+        <p>complete com suas informações</p>
+        <hr>
+    </header>
+    <form action="#">
+        <fieldset>
+            <legend>dados</legend>
+
+            <div >
+                <label for="label-nome">Nome:</label>
+                <input required placeholder="coloque aqui seu nome" 
+                id="label-nome" type="text">
+        </div>
+        <div >
+            <label for="id-email">E-mail:</label>
+            <input required placeholder="coloque aqui seu e-mail" 
+            type="email" id="id-email">
+        </div>
+        </fieldset>
+
+        <fieldset class="selecao">
+            <legend>seleção</legend>
+           
+            <label for=""></label>
+            <select name="" id="">
+                <option selected disabled>pokemom choice</option>
+                <option>charmander</option>
+                <option>squirtle</option>
+                <option>bubassaur</option>
+                <option>evee</option>
+                <option>pikachu</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>radio button</legend>
+            <input type="radio" name="bt-radio" id="bt-radio1">
+            <label for="">item 1</label>
+
+            <input type="radio" name="bt-radio" id="bt-radio2">
+            <label for="">item 2</label>
+
+            <input type="radio" name="bt-radio" id="bt-radio3">
+            <label for="">item 3</label>
+        </fieldset>
+        <fieldset>
+            <legend>checkbox</legend>
+            <input type="checkbox" id="chk1" >
+            <label for="chk1">item 1</label>
+
+            <input type="checkbox" id="chk2" >
+            <label for="chk1">item 2</label>
+
+            <input type="checkbox" id="chk3" >
+            <label for="chk1">item 3</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>area de texto</legend>
+            <textarea name="area-de-texto"  cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <button type="submit">enviar</button>
+        <button type="reset">apagar</button>
+    </form>
+</body>
+</html>
