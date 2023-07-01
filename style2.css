@@ -1,0 +1,81 @@
+
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(225, 189, 142);
+    min-width: 350px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+/* inicio do header */
+header{
+    background-color: rgba(121, 101, 74, 0.612);
+    margin: 25px;
+    padding: 25px;
+    border: 10px solid rgb(123, 64, 64);
+    border-style: groove;
+    border-radius: 8px;
+    text-align: center;
+}
+/* inicio do formulario */
+form{
+    /* background-color: rgba(62, 45, 30, 0.258); */
+    /* border-radius: 5px; */
+    /* border: 1px solid black; */
+    margin: 15px;
+
+}
+
+button{
+    background-color: rgba(210, 52, 27, 0.669);
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 3px;
+}
+/* fim do header */
+
+fieldset{
+   margin-bottom: 15px;
+    padding: 15px;
+    background-color: rgba(82, 63, 39, 0.447);
+    border-radius: 10px;
+    display: flex;    
+    border: 5px solid rgba(123, 64, 64, 0.305);
+    border-style: groove;
+}
+fieldset.selecao{
+    flex-direction: column;
+    padding: 0%;
+}
+div{
+    margin: 1.5rem;
+}
+label{
+   display: inline-block;
+   margin-bottom: 5px;
+}
+input{
+    padding: 3px;
+    width: 100%;
+}
+
+legend{
+    padding: 5px;
+    font-size: large;
+    color: rgb(225, 65, 29);
+    border: 1px solid black;
+    background-color: rgba(225, 206, 182, 0.509);
+    border-radius: 3px;
+    
+}
+
+select{
+    padding: 3px;
+    margin: 1.5rem;
+
+}
+/* ::placeholder{} */
